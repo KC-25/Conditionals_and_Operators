@@ -1,15 +1,15 @@
 var numb = prompt("Pick a number between 1 and 100, no decimals.")
 
 if (numb > 33 && numb < 66){
-    alert("Your number is somewhere in the middle.")
+    alert("Your number between 33 and 66.")
 }
 
 else if(numb < 33){
-    alert("You chose a smaller number.")
+    alert("You chose a number smallar than 33.")
 }
 
 else if (numb > 66){
-    alert("You chose a bigger number.")
+    alert("You chose a number bigger than 66.")
 }
 
 else if (numb != 33) {
